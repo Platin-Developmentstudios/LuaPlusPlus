@@ -11,7 +11,7 @@ func myfunction() --Define a Function
 end
 
 --[[
-    The Keyword return also has Changed. It's nie
+    The Keyword return also has Changed. It's now
     the Keyword ret
 ]]--
 

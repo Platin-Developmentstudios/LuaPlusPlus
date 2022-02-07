@@ -1,0 +1,13 @@
+--[[
+    Lua and Lua++ are not very different yet,
+    but this will change in the future.
+
+    The biggest difference is the "function" keyword
+    which can also be used as "func" here!
+]]--
+
+func myfunction()
+    print("Hello World from Lua++")
+end
+
+myfunction()

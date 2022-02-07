@@ -1920,6 +1920,7 @@ static void statement (LexState *ls) {
       labelstat(ls, str_checkname(ls), line);
       break;
     }
+    case TK_RET:
     case TK_RETURN: {  /* stat -> retstat */
       luaX_next(ls);  /* skip RETURN */
       retstat(ls);

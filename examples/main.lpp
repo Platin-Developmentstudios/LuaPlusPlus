@@ -6,8 +6,19 @@
     which can also be used as "func" here!
 ]]--
 
-func myfunction()
+func myfunction() --Define a Function
     print("Hello World from Lua++")
 end
 
-myfunction()
+--[[
+    The Keyword return also has Changed. It's nie
+    the Keyword ret
+]]--
+
+func retfunction()
+    local number = 0
+    ret number --Return the Number. In that Case 0
+end
+
+myfunction() --Call the Function
+print(retfunction ()) --Should show a 0 on the console

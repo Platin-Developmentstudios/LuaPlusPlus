@@ -4,7 +4,7 @@
 
     one of Athe biggest difference is the "function" keyword
     which can also be used as "func" here!
-]]--
+--]]
 
 func myfunction() --Define a Function
     print("Hello World from Lua++")
@@ -13,10 +13,10 @@ end
 --[[
     The Keyword return also has Changed. It's now
     the Keyword ret
-]]--
+--]]
 
 func retfunction()
-    local number = 0
+    locvar number = 0 --To define an Loacal Variable, we use locvar
     ret number --Return the Number. In that Case 0
 end
 

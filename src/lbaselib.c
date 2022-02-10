@@ -493,6 +493,7 @@ static const luaL_Reg base_funcs[] = {
   {"next", luaB_next},
   {"pairs", luaB_pairs},
   {"pcall", luaB_pcall},
+  {"write", luaB_print},
   {"print", luaB_print},
   {"warn", luaB_warn},
   {"rawequal", luaB_rawequal},

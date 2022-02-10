@@ -7,7 +7,7 @@
 --]]
 
 func myfunction() --Define a Function
-    print("Hello World from Lua++")
+    write("Hello World from Lua++") --in Lua++ the print() function is write()
 end
 
 --[[
